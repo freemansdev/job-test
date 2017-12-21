@@ -1,4 +1,4 @@
-## Installation
+## Installation and run
 
 Run npm install.<br>
 * `npm install`
