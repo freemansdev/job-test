@@ -1,0 +1,33 @@
+ .message_theme_first{
+	background: -moz-linear-gradient(45deg, $theme-first-color-1 0%, $theme-first-color-2 100%);
+	background: -webkit-gradient(linear, left bottom, right top, color-stop(0%, $theme-first-color-1), color-stop(100%, $theme-first-color-2));
+	background: -webkit-linear-gradient(45deg, $theme-first-color-1 0%, $theme-first-color-2 100%);
+	background: -o-linear-gradient(45deg, $theme-first-color-1 0%, $theme-first-color-2 100%);
+	background: -ms-linear-gradient(45deg, $theme-first-color-1 0%, $theme-first-color-2 100%);
+	background: linear-gradient(45deg, $theme-first-color-1 0%, $theme-first-color-2 100%);
+  	& .message__button {
+  		color: $bg-color-1;
+  	}
+}
+.message_theme_second{
+	background: -moz-linear-gradient(45deg, $theme-second-color-1 0%, $theme-second-color-2 100%); 
+	background: -webkit-gradient(linear, left bottom, right top, color-stop(0%, $theme-second-color-1), color-stop(100%, $theme-second-color-2)); 
+	background: -webkit-linear-gradient(45deg, $theme-second-color-1 0%, $theme-second-color-2 100%); 
+	background: -o-linear-gradient(45deg, $theme-second-color-1 0%, $theme-second-color-2 100%); 
+	background: -ms-linear-gradient(45deg, $theme-second-color-1 0%, $theme-second-color-2 100%); 
+	background: linear-gradient(45deg, $theme-second-color-1 0%, $theme-second-color-2 100%); 
+  	& .message__button {
+  		color: $bg-color-2;
+  	}
+}
+.message_theme_third{
+	background: -moz-linear-gradient(45deg, $theme-third-color-1 0%, $theme-third-color-2 100%); 
+	background: -webkit-gradient(linear, left bottom, right top, color-stop(0%, $theme-third-color-1), color-stop(100%, $theme-third-color-2));
+	background: -webkit-linear-gradient(45deg, $theme-third-color-1 0%, $theme-third-color-2 100%); 
+	background: -o-linear-gradient(45deg, $theme-third-color-1 0%, $theme-third-color-2 100%); 
+	background: -ms-linear-gradient(45deg, $theme-third-color-1 0%, $theme-third-color-2 100%); 
+	background: linear-gradient(45deg, $theme-third-color-1 0%, $theme-third-color-2 100%); 
+  	& .message__button {
+  		color: $bg-color-3;
+  	}
+}

@@ -1,0 +1,23 @@
+{
+  "name": "job-test",
+  "version": "1",
+  "description": "job-test",
+  "main": "gulpfile.js",
+  "author": "freemans.dev <freemans.dev@gmail.com>",
+  "devDependencies": {
+    "browser-sync": "^2.19.0",
+    "gulp": "^3.9.1",
+    "gulp-autoprefixer": "^3.1.0",
+    "gulp-concat": "^2.6.0",
+    "gulp-cssmin": "^0.1.7",
+    "gulp-imagemin": "^3.4.0",
+    "gulp-pa11y": "0.0.4",
+    "gulp-rename": "^1.2.2",
+    "gulp-sass": "^2.3.1",
+    "gulp-less": "^3.0.*",
+    "gulp-uglify": "^1.5.3",
+    "gulp-watch": "^4.3.5",
+    "susy": "^2.*"
+  },
+  "dependencies": {}
+}

@@ -1,0 +1,63 @@
+main {
+	@include container;
+    height: 40vh;
+    margin-top: 10vh;
+
+  .message {
+	position: relative;
+  	font-family: "Nunito";
+    font-weight: bold;
+    width : 330px;
+    height: 302px;
+	color: #fff;
+	border-radius: 10px;
+	&__head {
+		padding-top: 30px;
+		text-align: center;
+		font-size: 24px;
+	}
+	&__title {
+		font-size: 24px;
+	}	
+	&__body {
+		font-size: 16px;
+		padding: 20px 10px;
+		text-align: center;
+	}
+	&__panel {
+		position: absolute;
+		min-height: 50px;
+		bottom: 30px;
+		width: 100%;
+		text-align: center;
+	}
+	&__button {
+        display:inline-block;
+		margin: 0 auto;
+		font-size: 21px;
+		font-weight: bold;
+		min-width: 20px;
+		background: $button-bg;
+
+		-webkit-border-radius: 54;
+		-moz-border-radius: 54;
+		border-radius: 54px;
+  		-webkit-box-shadow: 0px 3px 1px $butoon-color-4;
+  		-moz-box-shadow: 0px 3px 1px $butoon-color-4;
+  		box-shadow: 0px 3px 1px $butoon-color-4;
+		padding: 10px 30px 10px 30px;
+		text-decoration: none;
+	}
+  }
+
+#message-1 {
+  	@include span(1);  
+}
+#message-2 {
+  	@include span(1 at 2);	
+}
+#message-3 {
+  	@include span(1 at 3);	
+}
+
+}
